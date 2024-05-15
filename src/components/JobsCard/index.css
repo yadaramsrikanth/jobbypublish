@@ -1,0 +1,93 @@
+.list-container {
+  list-style-type: none;
+  background-color: #272727;
+  min-height: 50vh;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.company-logo-image {
+  width: 15%;
+}
+.company-rating-container {
+  display: flex;
+
+  width: 40%;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.employmentType {
+  color: #f1f5f9;
+  margin: 0px;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.rating {
+  background-color: transparent;
+}
+.employement-rating-container {
+  margin-left: 25px;
+}
+.rating-count-container {
+  display: flex;
+  align-items: center;
+}
+.rating-count {
+  color: #f1f5f9;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.salary-location-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+.location-employement-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.package {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.location {
+  color: #f1f5f9;
+}
+.location-name {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 8px;
+}
+.JobsCard-horizontal-line {
+  color: #2c364c;
+  width: 100%;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f1f5f9;
+  margin-top: 0px;
+}
+.job-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #cbd5e1;
+  margin-top: 0px;
+}
+.link-item {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.employment-type-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.employment-type-list-container {
+  padding-left: 0px;
+}
+.employment-type-list-item {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.label-element {
+  color: #ffffff;
+  margin-left: 10px;
+}

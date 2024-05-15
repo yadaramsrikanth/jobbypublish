@@ -1,0 +1,16 @@
+.list-item-skill {
+  display: flex;
+  width: 30%;
+
+  list-style-type: none;
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+.skillname-heading {
+  color: #f1f5f9;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.skills-image {
+  width: 20%;
+}

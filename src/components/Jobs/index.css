@@ -1,0 +1,115 @@
+.jobs-container {
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-filters-container {
+  width: 25%;
+}
+
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 65%;
+  margin-left: 8px;
+}
+
+.horizontal-line {
+  color: #f1f5f9;
+  margin-top: 20px;
+}
+
+.failureview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.failure-headeing {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.failure-view-image {
+  width: 40%;
+}
+.failure-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+  margin-top: 5px;
+}
+.failure-retry-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 18px 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.loader-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  color: white;
+}
+.search-button {
+  background-color: #475569;
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+}
+.seacrh-element {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 100%;
+  outline: none;
+}
+.seacrh-button-container {
+  border: 1px solid #475569;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.unordered-container {
+  padding-left: 0px;
+}
+.no-jobs-image {
+  width: 40%;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.no-jobs-para {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0px;
+}
